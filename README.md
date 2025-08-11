@@ -29,17 +29,12 @@ bash scripts/train_local.sh
 
 ## HPC Training (Slurm)
 sbatch scripts/train_slurm.sh
-Create Modules or Scripts for each feature:
 
-distributed_training/ → DeepSpeed, Megatron-LM, FSDP integration
-
-tokenizers/ → SentencePiece, HuggingFace support
-
-data_pipeline/ → Petabyte-scale data handling
-
-cloud_configs/ → AWS, Azure, GCP deployment scripts
-
-parallelism/ → Hybrid parallelism logic
-
-evaluation/ → Perplexity and zero-shot evaluation tools
+##Create Modules or Scripts for each feature:
+###distributed_training/ → DeepSpeed, Megatron-LM, FSDP integration
+###tokenizers/ → SentencePiece, HuggingFace support
+###data_pipeline/ → Petabyte-scale data handling
+###cloud_configs/ → AWS, Azure, GCP deployment scripts
+###parallelism/ → Hybrid parallelism logic
+###evaluation/ → Perplexity and zero-shot evaluation tools
 
